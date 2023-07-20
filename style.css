@@ -1,0 +1,117 @@
+/* homepage */
+
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 226, 203);
+    position: sticky;
+    top: 0;
+}
+
+.navlist ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navlist ul li{
+    font-family: Georgia Italic;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navlist ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.navlist ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 100px;
+
+}
+
+img{
+    width: 250px;
+}
+
+.text{
+    flex-basis: 40%;
+}
+
+body {
+    background-image: url("marble\ background.jpg");
+}
+
+/* about me */
+#aboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    padding: 20px 50px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(154, 203, 231);
+    outline: none;
+    transition: .6s ease;
+    align-items: center;
+    justify-content:center;
+}
+
+
+/* projects */
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#systems{
+    margin-left: 20px;
+}
+
+#animal{
+    margin-left: 20px;
+}
+
+#predictive{
+    margin-left: 20px;
+}
+
+#full{
+    margin-left: 20px;
+}
+
+/* resume */
+#resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#margins{
+    margin-left: 30px;
+}
+
+
+/* In subpage3 I tried to align 2 strings within the same text line
+(one to the left and the other to the right similar to the education section on my downloaded Resume). 
+I tried float and text-align but it kept aligning everything beneath. 
+I was wondering what I did wrong for it to do that and how I could've align 2 strings with one going left and the other going right.
+Thank you. */
+ 
